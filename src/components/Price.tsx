@@ -1,13 +1,11 @@
 "use client";
+
 import React, { useEffect, useState } from "react";
 
 type Props = {
   price: number;
   id: number;
-  options?: {
-    title: string;
-    additionalPrice: number;
-  }[];
+  options?: { title: string; additionalPrice: number }[];
 };
 
 const Price = ({ price, id, options }: Props) => {
@@ -31,7 +29,7 @@ const Price = ({ price, id, options }: Props) => {
             key={option.title}
             className="min-w-[6rem] p-2 ring-1 ring-red-400 rounded-md"
             style={{
-              backgroundColor: selected === index ? "rgb(248 113 113" : "white",
+              background: selected === index ? "rgb(248 113 113)" : "white",
               color: selected === index ? "white" : "red",
             }}
             onClick={() => setSelected(index)}
@@ -44,17 +42,15 @@ const Price = ({ price, id, options }: Props) => {
       <div className="flex justify-between items-center">
         {/* QUANTITY */}
         <div className="flex justify-between w-full p-3 ring-1 ring-red-500">
-          <span className="">Quantity</span>
+          <span>Quantity</span>
           <div className="flex gap-4 items-center">
             <button
-              className=""
               onClick={() => setQuantity((prev) => (prev > 1 ? prev - 1 : 1))}
             >
               {"<"}
             </button>
             <span>{quantity}</span>
             <button
-              className=""
               onClick={() => setQuantity((prev) => (prev < 9 ? prev + 1 : 9))}
             >
               {">"}

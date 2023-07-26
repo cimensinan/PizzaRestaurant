@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const data = [
   {
@@ -22,10 +22,13 @@ const data = [
 
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev === data.length - 1 ? 0 : prev + 1));
-    }, 2000);
+    const interval = setInterval(
+      () =>
+        setCurrentSlide((prev) => (prev === data.length - 1 ? 0 : prev + 1)),
+      4000
+    );
     return () => clearInterval(interval);
   }, []);
 
@@ -36,7 +39,7 @@ const Slider = () => {
         <h1 className="text-5xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl">
           {data[currentSlide].title}
         </h1>
-        <button className="bg-red-500 text-white py-4 px-8 mb-4">Order Now</button>
+        <button className="bg-red-500 text-white py-4 px-8">Order Now</button>
       </div>
       {/* IMAGE CONTAINER */}
       <div className="w-full flex-1 relative">

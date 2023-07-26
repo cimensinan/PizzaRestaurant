@@ -20,7 +20,7 @@ const Featured = () => {
               </div>
             )}
             {/* TEXT CONTAINER */}
-            <div className="flex-1 flex flex-col gap-4 items-center justify-center text-center">
+            <div className=" flex-1 flex flex-col items-center justify-center text-center gap-4">
               <h1 className="text-xl font-bold uppercase xl:text-2xl 2xl:text-3xl">
                 {item.title}
               </h1>
