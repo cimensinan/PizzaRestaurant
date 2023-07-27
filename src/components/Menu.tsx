@@ -65,7 +65,6 @@ const Menu = () => {
               Orders
             </Link>
           )} */}
-
           {/* SHORTCUT */}
           <Link
             href={user ? "/orders" : "login"}
@@ -73,7 +72,7 @@ const Menu = () => {
           >
             {user ? "Orders" : "Login"}
           </Link>
-          <Link href="/orders">Orders</Link>
+          <Link href="/orders" onClick={() => setOpen(false)}>Orders</Link>
           <Link href="/cart" onClick={() => setOpen(false)}>
             <CartIcon />
           </Link>
