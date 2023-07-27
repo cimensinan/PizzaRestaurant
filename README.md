@@ -14,16 +14,9 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-![screencapture-massimo-restaurant-vercel-app-2023-07-28-02_43_32](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/d7b52870-4d9a-4ae7-823a-63765821698e)
-
-![screencapture-massimo-restaurant-vercel-app-menu-2023-07-28-02_44_00](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/948eacd4-a46e-439b-bffc-8130f067648a)
-
-![screencapture-massimo-restaurant-vercel-app-menu-pizzas-2023-07-28-02_44_12](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/b8d8e873-9704-4d4a-96ab-8e00103dd072)
-
-![screencapture-massimo-restaurant-vercel-app-product-1-2023-07-28-02_44_24](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/edcac112-25a5-43c0-8b5a-09feb61b9d4d)
-
-![screencapture-massimo-restaurant-vercel-app-cart-2023-07-28-02_44_37](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/351d9999-b79a-4cde-82ec-7366e5d0a3ad)
-
-![screencapture-massimo-restaurant-vercel-app-orders-2023-07-28-02_44_52](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/3ddfe768-1d9f-4014-a05b-40f823c42062)
-
-![screencapture-massimo-restaurant-vercel-app-login-2023-07-28-02_45_03](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/e6db5657-9fc5-40c7-9151-6449f29789c2)
+![screencapture-massimo-restaurant-vercel-app-2023-07-28-02_43_32](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/80af1156-c4ef-46b0-b15f-504db50e1c7e)
+![screencapture-massimo-restaurant-vercel-app-menu-2023-07-28-02_44_00](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/623b4972-3430-45d2-a0c6-beb8673556cf)
+![screencapture-massimo-restaurant-vercel-app-menu-pizzas-2023-07-28-02_44_12](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/d22e217d-d575-4736-abda-fc6030818d31)
+![screencapture-massimo-restaurant-vercel-app-product-1-2023-07-28-02_44_24](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/4aa2d269-ed20-4626-b4e3-13f1f8b7887f)
+![screencapture-massimo-restaurant-vercel-app-cart-2023-07-28-02_44_37](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/fcb0b1a3-f51c-4e4d-ae09-a800416b5e92)
+![screencapture-massimo-restaurant-vercel-app-login-2023-07-28-02_45_03](https://github.com/cimensinan/PizzaRestaurant/assets/113183535/88cd46a6-cd2b-45b2-953a-5f8e37bfe4d7)
