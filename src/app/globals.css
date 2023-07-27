@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 1px;
+    height: 5px; /* Kaydırma çubuğu genişliği */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(239 68 68); /* Kaydırma çubuğu dolgu rengi */
+    border-radius: 0px; /* Kaydırma çubuğu kenar yuvarlatma */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(239 68 68); /* Kaydırma çubuğu üzerine gelince dolgu rengi */
+  }
