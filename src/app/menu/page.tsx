@@ -9,11 +9,11 @@ const MenuPage = () => {
         <Link
           href={`/menu/${category.slug}`}
           key={category.id}
-          className="w-full h-1/3 bg-cover p-8 md:h-[65%]"
+          className="w-full h-1/3 bg-cover p-4 sm:p-8 md:h-[70%]"
           style={{ backgroundImage: `url(${category.img})` }}
         >
-          <div className={`text-${category.color} w-1/2`}>
-            <h1 className="uppercase font-bold text-3xl">{category.title}</h1>
+          <div className={`text-${category.color} w-2/3 lg:w-1/2`}>
+            <h1 className="uppercase font-bold text-3xl whitespace-nowrap sm:whitespace-normal">{category.title}</h1>
             <p className="text-sm my-5">{category.desc}</p>
             <button
               className={`hidden xl:block text-${
